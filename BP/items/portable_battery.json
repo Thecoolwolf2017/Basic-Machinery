@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.70",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items"
+			},
+			"identifier": "vatonage:portable_battery"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:stacked_by_data": false,
+			"minecraft:icon": {
+				"textures": {
+					"default": "portable_battery"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "Portable Battery"
+			}
+		}
+	}
+}

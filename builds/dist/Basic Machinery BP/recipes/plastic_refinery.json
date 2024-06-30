@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:plastic_refinery"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"DCD",
+			"BDB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_block"
+			},
+			"B": {
+				"item": "vatonage:pipe_item"
+			},
+			"C": {
+				"item": "minecraft:bucket"
+			},
+			"D": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:plastic_refinery"
+		}
+	}
+}

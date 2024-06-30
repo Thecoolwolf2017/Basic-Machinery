@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:midnight_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CAC",
+			"CBC",
+			"D D"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:diamond_block"
+			},
+			"B": {
+				"item": "vatonage:hexosteel_chestplate"
+			},
+			"C": {
+				"item": "netherite_block"
+			},
+			"D": {
+				"item": "vatonage:advanced_circuit_board"
+			}
+		},
+		"result": {
+			"item": "vatonage:midnight_chestplate"
+		}
+	}
+}

@@ -1,0 +1,161 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.conveyor_diagonal",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "sloped",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -8],
+							"size": [10, 2, 2.5],
+							"uv": {
+								"north": {"uv": [43, 8], "uv_size": [10, 2]},
+								"east": {"uv": [41, 8], "uv_size": [2, 2]},
+								"south": {"uv": [55, 8], "uv_size": [10, 2]},
+								"west": {"uv": [53, 8], "uv_size": [2, 2]},
+								"up": {"uv": [43, 6], "uv_size": [10, 2]},
+								"down": {"uv": [53, 8], "uv_size": [10, -2]}
+							}
+						},
+						{
+							"origin": [-5, 16, 5],
+							"size": [10, 2, 3],
+							"pivot": [0, 18, 6.5],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [44, 3], "uv_size": [10, 2]},
+								"east": {"uv": [41, 3], "uv_size": [3, 2]},
+								"south": {"uv": [57, 3], "uv_size": [10, 2]},
+								"west": {"uv": [54, 3], "uv_size": [3, 2]},
+								"up": {"uv": [44, 0], "uv_size": [10, 3]},
+								"down": {"uv": [54, 3], "uv_size": [10, -3]}
+							}
+						},
+						{
+							"origin": [-8, 9.5, -1.5],
+							"size": [3, 3, 3],
+							"inflate": 0.01,
+							"pivot": [-6.5, 11, 6.5],
+							"rotation": [90, 0, -180],
+							"uv": {
+								"north": {"uv": [3, 10], "uv_size": [3, 3]},
+								"east": {"uv": [0, 10], "uv_size": [3, 3]},
+								"south": {"uv": [9, 10], "uv_size": [3, 3]},
+								"west": {"uv": [6, 10], "uv_size": [3, 3]},
+								"up": {"uv": [3, 7], "uv_size": [3, 3]},
+								"down": {"uv": [6, 10], "uv_size": [3, -3]}
+							}
+						},
+						{
+							"origin": [5, 9.5, -1.5],
+							"size": [3, 3, 3],
+							"inflate": 0.01,
+							"pivot": [6.5, 11, 6.5],
+							"rotation": [90, 0, 180],
+							"uv": {
+								"north": {"uv": [3, 3], "uv_size": [3, 3]},
+								"east": {"uv": [0, 3], "uv_size": [3, 3]},
+								"south": {"uv": [9, 3], "uv_size": [3, 3]},
+								"west": {"uv": [6, 3], "uv_size": [3, 3]},
+								"up": {"uv": [3, 0], "uv_size": [3, 3]},
+								"down": {"uv": [6, 3], "uv_size": [3, -3]}
+							}
+						},
+						{
+							"origin": [5, 6.5, -14.5],
+							"size": [3, 2.5, 3],
+							"inflate": 0.01,
+							"pivot": [6.5, 8, -6.5],
+							"rotation": [-90, 0, 180],
+							"uv": {
+								"north": {"uv": [3, 26], "uv_size": [3, 2]},
+								"east": {"uv": [0, 26], "uv_size": [3, 2]},
+								"south": {"uv": [9, 26], "uv_size": [3, 2]},
+								"west": {"uv": [6, 26], "uv_size": [3, 2]},
+								"up": {"uv": [3, 23], "uv_size": [3, 3]},
+								"down": {"uv": [6, 26], "uv_size": [3, -3]}
+							}
+						},
+						{
+							"origin": [18, 6.5, -14.5],
+							"size": [3, 2.5, 3],
+							"inflate": 0.01,
+							"pivot": [6.5, 8, -6.5],
+							"rotation": [-90, 0, 180],
+							"uv": {
+								"north": {"uv": [3, 17], "uv_size": [3, 2]},
+								"east": {"uv": [0, 17], "uv_size": [3, 2]},
+								"south": {"uv": [9, 17], "uv_size": [3, 2]},
+								"west": {"uv": [6, 17], "uv_size": [3, 2]},
+								"up": {"uv": [3, 14], "uv_size": [3, 3]},
+								"down": {"uv": [6, 17], "uv_size": [3, -3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sloped_walls",
+					"parent": "sloped",
+					"pivot": [0, 8.85, 0.1],
+					"rotation": [129, 0, 180],
+					"cubes": [
+						{
+							"origin": [5, 8.47, -10.85],
+							"size": [3, 3, 20.6],
+							"uv": {
+								"north": {"uv": [47, 47], "uv_size": [3, 3]},
+								"east": {"uv": [27, 47], "uv_size": [20, 3]},
+								"south": {"uv": [70, 47], "uv_size": [3, 3]},
+								"west": {"uv": [50, 47], "uv_size": [20, 3]},
+								"up": {"uv": [47, 27], "uv_size": [3, 20]},
+								"down": {"uv": [50, 47], "uv_size": [3, -20]}
+							}
+						},
+						{
+							"origin": [-8, 8.47, -10.85],
+							"size": [3, 3, 20.6],
+							"uv": {
+								"north": {"uv": [20, 43], "uv_size": [3, 3]},
+								"east": {"uv": [0, 43], "uv_size": [20, 3]},
+								"south": {"uv": [43, 43], "uv_size": [3, 3]},
+								"west": {"uv": [23, 43], "uv_size": [20, 3]},
+								"up": {"uv": [20, 23], "uv_size": [3, 20]},
+								"down": {"uv": [23, 43], "uv_size": [3, -20]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sloped_con",
+					"parent": "sloped",
+					"pivot": [0, 8.3, -0.7],
+					"rotation": [129, 0, 180],
+					"cubes": [
+						{
+							"origin": [-5, 7.9554, -11.78],
+							"size": [10, 2, 20.5],
+							"uv": {
+								"north": {"uv": [20, 20], "uv_size": [10, 2]},
+								"east": {"uv": [0, 20], "uv_size": [20, 2]},
+								"south": {"uv": [50, 20], "uv_size": [10, 2]},
+								"west": {"uv": [30, 20], "uv_size": [20, 2]},
+								"up": {"uv": [20, 0], "uv_size": [10, 20]},
+								"down": {"uv": [30, 20], "uv_size": [10, -20]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.70",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage_basic:tutorial_book"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#I#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "redstone"
+			},
+			"I": {
+				"item": "iron_ingot"
+			}
+		},
+		"result": {
+			"item": "vatonage_basic:tutorial_book0"
+		},
+		"unlock": [
+			{
+				"item": "vatonage_basic:tutorial_book0"
+			}
+		]
+	}
+}

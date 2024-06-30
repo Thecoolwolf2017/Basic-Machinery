@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "vatonage:advanced_solar_panel_entity",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/blocks/advanced_solar_panel"
+			},
+			"geometry": {
+				"default": "geometry.advanced_solar_panel_entity"
+			},
+			"animation_controllers": [
+				{
+					"walk": "controller.animation.default"
+				}
+			],
+			"animations": {
+				"walk": "animation.advanced_solar_panel_entity.aling"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

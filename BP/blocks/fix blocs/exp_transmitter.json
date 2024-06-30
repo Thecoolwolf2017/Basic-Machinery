@@ -1,0 +1,53 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:exp_transmitter",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "exp_transmitter",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:geometry": "geometry.exp_transmitter",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:light_dampening": 0
+		},
+		"permutations": []
+	}
+}

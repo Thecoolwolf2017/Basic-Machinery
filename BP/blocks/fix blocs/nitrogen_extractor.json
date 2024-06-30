@@ -1,0 +1,143 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:nitrogen_extractor",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:gas_type": [
+					"carbon",
+					"none"
+				],
+				"vatonage:liquid_type": [
+					"water",
+					"none"
+				],
+				"vatonage:above": [
+					"gasOutput",
+					"none"
+				],
+				"vatonage:north": [
+					"allInput",
+					"none"
+				],
+				"vatonage:south": [
+					"allInput",
+					"none"
+				],
+				"vatonage:west": [
+					"allInput",
+					"none"
+				],
+				"vatonage:east": [
+					"allInput",
+					"none"
+				]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "nitrogen_extractor",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:geometry": "geometry.geothermal_generator",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"tag:gas_source": {},
+			"tag:gas_output": {},
+			"tag:water_receiver": {},
+			"tag:carbon_receiver": {},
+			"tag:rf_receiver": {},
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			}
+		]
+	}
+}

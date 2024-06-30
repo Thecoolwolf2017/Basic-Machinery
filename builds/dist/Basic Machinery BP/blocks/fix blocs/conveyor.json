@@ -1,0 +1,242 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:conveyor",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:north": [
+					false,
+					true
+				],
+				"vatonage:south": [
+					false,
+					true
+				],
+				"vatonage:west": [
+					false,
+					true
+				],
+				"vatonage:east": [
+					false,
+					true
+				],
+				"vatonage:state": [
+					"default",
+					"diagonal_down",
+					"diagonal_up"
+				]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "conveyor",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					3,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					3,
+					16
+				]
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.conveyor",
+				"bone_visibility": {
+					"north": "q.block_state('vatonage:north') != true",
+					"south": "q.block_state('vatonage:south') != true",
+					"west": "q.block_state('vatonage:west') != true",
+					"east": "q.block_state('vatonage:east') != true",
+					"north_ground": "q.block_state('vatonage:north') == true",
+					"south_ground": "q.block_state('vatonage:south') == true",
+					"west_ground": "q.block_state('vatonage:west') == true",
+					"east_ground": "q.block_state('vatonage:east') == true"
+				}
+			},
+			"tag:conveyor_connect": {},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vatonage:state') == 'default'",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.conveyor",
+						"bone_visibility": {
+							"north": "q.block_state('vatonage:north') != true",
+							"south": "q.block_state('vatonage:south') != true",
+							"west": "q.block_state('vatonage:west') != true",
+							"east": "q.block_state('vatonage:east') != true",
+							"north_ground": "q.block_state('vatonage:north') == true",
+							"south_ground": "q.block_state('vatonage:south') == true",
+							"west_ground": "q.block_state('vatonage:west') == true",
+							"east_ground": "q.block_state('vatonage:east') == true"
+						}
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "conveyor",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vatonage:state') == 'diagonal_up'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							10,
+							16
+						]
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							10,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.conveyor_diagonal"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "conveyor_diagonal_up",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vatonage:state') == 'diagonal_down'",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							10,
+							16
+						]
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							10,
+							16
+						]
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.conveyor_diagonal"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "conveyor_diagonal_down",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:gas_condenser"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"DCD",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "vatonage:tube_item"
+			},
+			"C": {
+				"item": "minecraft:bucket"
+			},
+			"D": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "vatonage:gas_condenser"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+      "dash.sword": {
+        "category": "ambient",
+        "max_distance": 80.0,
+        "sounds": [
+          {
+            "name": "sounds/vatonage/dash_sword",
+            "volume": 0.3
+          }
+          
+        ]
+      }
+    }
+}

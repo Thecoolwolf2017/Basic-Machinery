@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:geothermal_generator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"E E"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:redstone_block"
+			},
+			"B": {
+				"item": "minecraft:lava_bucket"
+			},
+			"C": {
+				"item": "vatonage:circuit_board"
+			},
+			"E": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": {
+			"item": "vatonage:geothermal_generator"
+		}
+	}
+}

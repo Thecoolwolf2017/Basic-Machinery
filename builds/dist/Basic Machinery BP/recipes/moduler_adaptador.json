@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:module_adaptador"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			" A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "vatonage:module_adaptador"
+		}
+	}
+}

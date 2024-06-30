@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:powered_furnace"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"DCD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:furnace"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "vatonage:conveyor"
+			},
+			"D": {
+				"item": "minecraft:coal"
+			}
+		},
+		"result": {
+			"item": "vatonage:powered_furnace"
+		}
+	}
+}

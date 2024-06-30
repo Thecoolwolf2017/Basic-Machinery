@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:powered_fisher"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"CDC",
+			"B B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_block"
+			},
+			"B": {
+				"item": "vatonage:plastic"
+			},
+			"C": {
+				"item": "minecraft:iron_ingot"
+			},
+			"D": {
+				"item": "minecraft:fishing_rod"
+			}
+		},
+		"result": {
+			"item": "vatonage:powered_fisher"
+		}
+	}
+}

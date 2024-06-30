@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:ammonia_mixer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"CDC",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:circuit_board"
+			},
+			"B": {
+				"item": "minecraft:gold_block"
+			},
+			"C": {
+				"item": "vatonage:tube_item"
+			},
+			"D": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:ammonia_mixer"
+		}
+	}
+}

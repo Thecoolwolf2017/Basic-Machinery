@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:gas_separator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"CDC",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:plastic_bunch"
+			},
+			"B": {
+				"item": "minecraft:iron_block"
+			},
+			"C": {
+				"item": "vatonage:pipe_item"
+			},
+			"D": {
+				"item": "minecraft:bucket"
+			}
+		},
+		"result": {
+			"item": "vatonage:gas_separator"
+		}
+	}
+}

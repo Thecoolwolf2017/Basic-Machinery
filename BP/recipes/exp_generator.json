@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:exp_generator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DAD",
+			"ECE",
+			"DAD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_block"
+			},
+			"C": {
+				"item": "minecraft:diamond_sword"
+			},
+			"D": {
+				"item": "vatonage:circuit_board"
+			},
+			"E": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:exp_generator"
+		}
+	}
+}

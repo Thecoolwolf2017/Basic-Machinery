@@ -1,0 +1,52 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vatonage_basic.tutorial_book.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"view_first_person": {
+					"rotation": [
+						0,
+						2,
+						0
+					],
+					"position": [
+						-8,
+						-4,
+						-50
+					],
+					"scale": 3
+				},
+				"view_third_person": {
+					"position": [
+						0,
+						38.32744,
+						0.08296
+					],
+					"scale": 0
+				}
+			}
+		},
+		"animation.vatonage_basic.tutorial_book.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"view_first_person": {
+					"scale": 0
+				},
+				"view_third_person": {
+					"rotation": [
+						80,
+						0,
+						0
+					],
+					"position": [
+						0,
+						3.03455,
+						-2.14179
+					],
+					"scale": 0.5
+				}
+			}
+		}
+	}
+}

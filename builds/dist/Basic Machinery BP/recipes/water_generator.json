@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:water_generator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BDB",
+			"ACA",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:copper_ingot"
+			},
+			"B": {
+				"item": "minecraft:redstone"
+			},
+			"C": {
+				"item": "minecraft:water_bucket"
+			},
+			"D": {
+				"item": "vatonage:tube_item"
+			}
+		},
+		"result": {
+			"item": "vatonage:water_generator"
+		}
+	}
+}

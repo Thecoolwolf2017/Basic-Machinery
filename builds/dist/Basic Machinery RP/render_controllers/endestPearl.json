@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.endestPearl": {
+			"arrays": {
+				"textures": {
+					"array.texture": [
+						"texture.a",
+						"texture.b",
+						"texture.c",
+						"texture.d",
+						"texture.e",
+						"texture.d",
+						"texture.c",
+						"texture.b"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"t.texture=((q.life_time*q.life_time)+q.life_time)/2;return array.texture[t.texture];"
+			],
+			"geometry": "geometry.default"
+		}
+	}
+}

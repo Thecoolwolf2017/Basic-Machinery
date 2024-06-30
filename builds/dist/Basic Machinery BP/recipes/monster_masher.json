@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:monster_masher"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"DCD",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_block"
+			},
+			"B": {
+				"item": "vatonage:plastic_bunch"
+			},
+			"C": {
+				"item": "minecraft:diamond_sword"
+			},
+			"D": {
+				"item": "minecraft:redstone_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:monster_masher"
+		}
+	}
+}

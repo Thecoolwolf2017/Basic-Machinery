@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.graphenearmor": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "v.is_enchanted ? material.enchanted : Material.default"
+                }
+            ],
+            "textures": [
+                "t.time = q.life_time * 7.8; return array.txt[t.time];", "texture.enchanted"
+            ],
+            "arrays": {
+                "textures": {
+                    "array.txt":[
+                      "texture.a",
+                      "texture.b",
+                      "texture.c",
+                      "texture.d",
+                      "texture.e",
+                      "texture.f",
+                      "texture.g",
+                      "texture.h",
+                      "texture.i",
+                      "texture.j",
+                      "texture.k",
+                      "texture.l",
+                      "texture.m",
+                      "texture.n",
+                      "texture.o",
+                      "texture.p"
+                    ]
+                }
+            }
+        }
+    }
+  }

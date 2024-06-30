@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "vatonage_basic:tutorial_book12",
+            "menu_category": {
+                "category": "none"
+            }
+        },
+        "components": {
+            "minecraft:tags": {
+                "tags": [
+                    "vatonage_basic:tutorial_book"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "tutorial_book"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "%vatonage_basic.tutorialBook.name"
+            }
+        }
+    }
+}

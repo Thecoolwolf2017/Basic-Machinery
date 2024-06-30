@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:nether_quantum_miner"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"DCD",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_block"
+			},
+			"B": {
+				"item": "minecraft:iron_block"
+			},
+			"C": {
+				"item": "minecraft:netherite_pickaxe"
+			},
+			"D": {
+				"item": "vatonage:circuit_board"
+			}
+		},
+		"result": {
+			"item": "vatonage:nether_quantum_miner"
+		}
+	}
+}

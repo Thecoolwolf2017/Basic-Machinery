@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:heavy_press"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"DCD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:anvil"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "vatonage:conveyor"
+			},
+			"D": {
+				"item": "vatonage:circuit_board"
+			}
+		},
+		"result": {
+			"item": "vatonage:heavy_press"
+		}
+	}
+}

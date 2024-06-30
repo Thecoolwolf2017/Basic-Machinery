@@ -1,0 +1,167 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.block_placer",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "base",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								16,
+								12,
+								16
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "hopper",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-7,
+								12,
+								-7
+							],
+							"size": [
+								14,
+								2,
+								14
+							],
+							"uv": [
+								0,
+								29
+							]
+						},
+						{
+							"origin": [
+								-5,
+								14,
+								-8
+							],
+							"size": [
+								13,
+								2,
+								3
+							],
+							"uv": [
+								0,
+								46
+							]
+						},
+						{
+							"origin": [
+								-5,
+								14,
+								-8
+							],
+							"size": [
+								13,
+								2,
+								3
+							],
+							"pivot": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": [
+								0,
+								46
+							]
+						},
+						{
+							"origin": [
+								-5,
+								14,
+								-8
+							],
+							"size": [
+								13,
+								2,
+								3
+							],
+							"pivot": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": [
+								0,
+								46
+							]
+						},
+						{
+							"origin": [
+								-5,
+								14,
+								-8
+							],
+							"size": [
+								13,
+								2,
+								3
+							],
+							"pivot": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								180,
+								0
+							],
+							"uv": [
+								0,
+								46
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

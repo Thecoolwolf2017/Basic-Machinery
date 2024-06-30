@@ -1,0 +1,205 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:pipe",
+			"menu_category": {
+				"category": "none",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:above": [
+					"none",
+					"pipe"
+				],
+				"vatonage:below": [
+					"none",
+					"pipe"
+				],
+				"vatonage:north": [
+					"none",
+					"pipe"
+				],
+				"vatonage:south": [
+					"none",
+					"pipe"
+				],
+				"vatonage:east": [
+					"none",
+					"pipe"
+				],
+				"vatonage:west": [
+					"none",
+					"pipe"
+				],
+				"vatonage:liquid_type": [
+					"none",
+					"ammonia",
+					"exp",
+					"lava",
+					"water",
+					"milk",
+					"oil",
+					"fluor"
+				]
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:loot": "loot_tables/pipe.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pipe",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"tag:liquid_pipe": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.cable",
+				"bone_visibility": {
+					"up": "q.block_state('vatonage:above') != 'none'",
+					"down": "q.block_state('vatonage:below') != 'none'",
+					"north": "q.block_state('vatonage:north') != 'none'",
+					"east": "q.block_state('vatonage:east') != 'none'",
+					"south": "q.block_state('vatonage:south') != 'none'",
+					"west": "q.block_state('vatonage:west') != 'none'",
+					"up_cable": "q.block_state('vatonage:above') == 'pipe'",
+					"down_cable": "q.block_state('vatonage:below') == 'pipe'",
+					"north_cable": "q.block_state('vatonage:north') == 'pipe'",
+					"east_cable": "q.block_state('vatonage:east') == 'pipe'",
+					"south_cable": "q.block_state('vatonage:south') == 'pipe'",
+					"west_cable": "q.block_state('vatonage:west') == 'pipe'",
+					"up_output": "q.block_state('vatonage:above') == 'output'",
+					"down_output": "q.block_state('vatonage:below') == 'output'",
+					"north_output": "q.block_state('vatonage:north') == 'output'",
+					"east_output": "q.block_state('vatonage:east') == 'output'",
+					"south_output": "q.block_state('vatonage:south') == 'output'",
+					"west_output": "q.block_state('vatonage:west') == 'output'",
+					"up_input": "q.block_state('vatonage:above') == 'input'",
+					"down_input": "q.block_state('vatonage:below') == 'input'",
+					"north_input": "q.block_state('vatonage:north') == 'input'",
+					"east_input": "q.block_state('vatonage:east') == 'input'",
+					"south_input": "q.block_state('vatonage:south') == 'input'",
+					"west_input": "q.block_state('vatonage:west') == 'input'"
+				}
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'none'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_none",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'ammonia'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_ammonia",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'exp'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_exp",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'lava'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_lava",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'water'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_water",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'milk'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_milk",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'oil'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_oil",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'fluor'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "liquid_pipe_fluor",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

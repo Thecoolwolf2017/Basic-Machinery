@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Download free addons on vatonage.com",
+		"name": "Basic Machinery (vatonage.com)",
+		"uuid": "c9d98095-ce37-4fab-8cd0-784678780f30",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			19,
+			10
+		]
+	},
+	"modules": [
+		{
+			"description": "§5By Ramcor14_Player",
+			"type": "resources",
+			"uuid": "62ab8275-196b-40a3-bd4f-be37077d062c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "4de05e6d-df73-4136-8d35-44bbdab0e5b5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.7.23"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	}
+}

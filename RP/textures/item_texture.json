@@ -1,0 +1,150 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+   "tutorial_book": {
+     "textures": "textures/vatonage/basic/book/item"
+   },
+   "wrench": {
+      "textures": "textures/items/wrench"
+   },
+   "tube": {
+      "textures": "textures/items/tube"
+   },
+   "pipe": {
+      "textures": "textures/items/pipe"
+   },
+   "cable": {
+      "textures": "textures/items/cable"
+   },
+   "modular_tool_sword": {
+      "textures": "textures/items/modular_tool_sword"
+   },
+   "modular_tool_pickaxe": {
+      "textures": "textures/items/modular_tool_pickaxe"
+   },
+   "modular_tool_axe": {
+      "textures": "textures/items/modular_tool_axe"
+   },
+   "modular_tool_shovel": {
+      "textures": "textures/items/modular_tool_shovel"
+   },
+   "modular_tool_hoe": {
+      "textures": "textures/items/modular_tool_hoe"
+   },
+   "nano_sword": {
+      "textures": "textures/items/nano_sword"
+   },
+   "drill": {
+      "textures": "textures/items/drill"
+   },
+   "scrap": {
+      "textures": "textures/items/scrap"
+   },
+   "advanced_circuit_board": {
+      "textures": "textures/items/circuit"
+   },
+   "circuit_board": {
+      "textures": "textures/items/circuit_board"
+   },
+   "hexosteel_ingot": {
+      "textures": "textures/items/hexosteel_alloy"
+   },
+   "module_connector": {
+      "textures": "textures/items/module_connector"
+   },
+   "portable_battery": {
+      "textures": "textures/items/portable_battery"
+   },
+   "uranium_cell": {
+      "textures": "textures/items/uranium_cell"
+   },
+   "default_module": {
+      "textures": "textures/items/default_module"
+   },
+   "destroy_module": {
+      "textures": "textures/items/destroy_module"
+   },
+   "fall_module": {
+      "textures": "textures/items/fall_module"
+   },
+   "field_module": {
+      "textures": "textures/items/field_module"
+   },
+   "heart_module": {
+      "textures": "textures/items/heart_module"
+   },
+   "jetpack_module": {
+      "textures": "textures/items/jetpack_module"
+   },
+   "jump_module": {
+      "textures": "textures/items/jump_module"
+   },
+   "night_module": {
+      "textures": "textures/items/night_module"
+   },
+   "power_module": {
+      "textures": "textures/items/power_module"
+   },
+   "smelt_module": {
+      "textures": "textures/items/smelt_module"
+   },
+   "solar_module": {
+      "textures": "textures/items/solar_module"
+   },
+   "speed_module": {
+      "textures": "textures/items/speed_module"
+   },
+   "strength_module": {
+      "textures": "textures/items/strength_module"
+   },
+   "vein_module": {
+      "textures": "textures/items/vein_module"
+   },
+   "hexosteel_helmet": {
+      "textures": "textures/items/graphene_helmet"
+   },
+   "hexosteel_chestplate": {
+      "textures": "textures/items/graphene_chestplate"
+   },
+   "hexosteel_leggings": {
+      "textures": "textures/items/graphene_leggings"
+   },
+   "hexosteel_boots": {
+      "textures": "textures/items/graphene_boots"
+   },
+   "midnight_helmet": {
+      "textures": "textures/items/midnight_helmet"
+   },
+   "midnight_chestplate": {
+      "textures": "textures/items/midnight_chestplate"
+   },
+   "midnight_leggings": {
+      "textures": "textures/items/midnight_leggings"
+   },
+   "midnight_boots": {
+      "textures": "textures/items/midnight_boots"
+   },
+   "carbon_nanotube": {
+      "textures": "textures/items/carbon_nanotube"
+   },
+   "graphene_plate": {
+      "textures": "textures/items/graphene_plate"
+   },
+  "oil_bucket": {
+     "textures": "textures/items/bucket_oil"
+  },
+  "plastic": {
+     "textures": "textures/items/plastic"
+  },
+  "plastic_bunch": {
+     "textures": "textures/items/plastic_bunch"
+  },
+  "silicon": {
+     "textures": "textures/items/silicon"
+  },
+  "imcircuit_board": {
+     "textures": "textures/items/circuit_board"
+  }
+ }
+}

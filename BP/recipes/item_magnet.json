@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:item_magnet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B B",
+			"BBB",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "vatonage:item_magnet"
+		}
+	}
+}

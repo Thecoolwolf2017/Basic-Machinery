@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.70",
+  "minecraft:item": {
+    "description": {
+      "menu_category": {
+        "category": "items"
+      },
+      "identifier": "vatonage:cable_item"
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "cable"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Cable"
+      },
+      "minecraft:block_placer": {
+        "block": "vatonage:cable"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ui_defs": [
+    "ui/chest_screen.json",
+    "ui/vatonage_common.json",
+    "ui/vatonage/filter.json",
+    "ui/vatonage/module_station.json"
+  ]
+}

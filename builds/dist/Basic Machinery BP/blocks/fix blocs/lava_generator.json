@@ -1,0 +1,144 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:lava_generator",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:liquid_type": [
+					"lava",
+					"none"
+				],
+				"vatonage:on": [
+					0,
+					1
+				]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lava_generator",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:geometry": "geometry.lava_generator",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"tag:rf_source": {},
+			"tag:rf_output": {},
+			"tag:liquid_input": {},
+			"tag:lava_receiver": {},
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vatonage:on') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "lava_generator",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vatonage:on') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "lava_generator_on",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

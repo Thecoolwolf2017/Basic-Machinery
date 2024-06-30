@@ -1,0 +1,133 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:cable",
+			"menu_category": {
+				"category": "none",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:above": [
+					"none",
+					"cable"
+				],
+				"vatonage:below": [
+					"none",
+					"cable"
+				],
+				"vatonage:north": [
+					"none",
+					"cable"
+				],
+				"vatonage:south": [
+					"none",
+					"cable"
+				],
+				"vatonage:east": [
+					"none",
+					"cable"
+				],
+				"vatonage:west": [
+					"none",
+					"cable"
+				],
+				"vatonage:rf_type": [
+					"none",
+					"rf"
+				]
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:loot": "loot_tables/cable.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cable",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"tag:rf_cable": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.cable",
+				"bone_visibility": {
+					"up": "q.block_state('vatonage:above') != 'none'",
+					"down": "q.block_state('vatonage:below') != 'none'",
+					"north": "q.block_state('vatonage:north') != 'none'",
+					"east": "q.block_state('vatonage:east') != 'none'",
+					"south": "q.block_state('vatonage:south') != 'none'",
+					"west": "q.block_state('vatonage:west') != 'none'",
+					"up_cable": "q.block_state('vatonage:above') == 'cable'",
+					"down_cable": "q.block_state('vatonage:below') == 'cable'",
+					"north_cable": "q.block_state('vatonage:north') == 'cable'",
+					"east_cable": "q.block_state('vatonage:east') == 'cable'",
+					"south_cable": "q.block_state('vatonage:south') == 'cable'",
+					"west_cable": "q.block_state('vatonage:west') == 'cable'",
+					"up_output": "q.block_state('vatonage:above') == 'output'",
+					"down_output": "q.block_state('vatonage:below') == 'output'",
+					"north_output": "q.block_state('vatonage:north') == 'output'",
+					"east_output": "q.block_state('vatonage:east') == 'output'",
+					"south_output": "q.block_state('vatonage:south') == 'output'",
+					"west_output": "q.block_state('vatonage:west') == 'output'",
+					"up_input": "q.block_state('vatonage:above') == 'input'",
+					"down_input": "q.block_state('vatonage:below') == 'input'",
+					"north_input": "q.block_state('vatonage:north') == 'input'",
+					"east_input": "q.block_state('vatonage:east') == 'input'",
+					"south_input": "q.block_state('vatonage:south') == 'input'",
+					"west_input": "q.block_state('vatonage:west') == 'input'"
+				}
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('vatonage:rf_type') == 'none'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "power_cable_0",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:rf_type') == 'rf'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "power_cable_1",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

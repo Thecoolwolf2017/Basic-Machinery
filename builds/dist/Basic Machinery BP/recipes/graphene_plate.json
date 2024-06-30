@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:graphene_plate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:carbon_nanotube"
+			}
+		},
+		"result": {
+			"item": "vatonage:graphene_plate"
+		}
+	}
+}

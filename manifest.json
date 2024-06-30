@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Download free addons on vatonage.com",
+    "name": "Basic Machinery (vatonage.com)",
+    "uuid": "4de05e6d-df73-4136-8d35-44bbdab0e5b5",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+    20,
+    60
+  ]
+  },
+  "modules": [
+    {
+        "uuid": "2235709f-5cce-447e-98f4-2c97805604c0",
+        "version": [1, 0, 0],
+        "type": "script",
+        "language": "javascript",
+        "entry": "scripts/bm-API.js"
+    }
+  ],
+  "dependencies": [
+    {
+        "module_name": "@minecraft/server",
+        "version": "1.10.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0"
+    },
+    {
+      "uuid": "c9d98095-ce37-4fab-8cd0-784678780f30",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

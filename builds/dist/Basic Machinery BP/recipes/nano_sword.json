@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:nano_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  H",
+			"BD ",
+			"NC "
+		],
+		"key": {
+			"H": {
+				"item": "vatonage:graphene_plate"
+			},
+			"B": {
+				"item": "vatonage:portable_battery"
+			},
+			"C": {
+				"item": "vatonage:circuit_board"
+			},
+			"D": {
+				"item": "minecraft:redstone_block"
+			},
+			"N": {
+				"item": "vatonage:carbon_nanotube"
+			}
+		},
+		"result": {
+			"item": "vatonage:nano_sword"
+		}
+	}
+}

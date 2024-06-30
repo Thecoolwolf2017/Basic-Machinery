@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.advanced_solar_panel_entity.aling": {
+			"loop": true,
+			"bones": {
+				"panel": {
+					"rotation": [
+						0,
+						0,
+						"-90+math.clamp((q.time_of_day*360),-90,180)"
+					]
+				}
+			}
+		}
+	}
+}

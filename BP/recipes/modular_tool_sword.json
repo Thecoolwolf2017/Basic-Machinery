@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:modular_tool_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DDD",
+			"AXB",
+			"NNN"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:drill"
+			},
+			"B": {
+				"item": "vatonage:nano_sword"
+			},
+			"X": {
+				"item": "vatonage:advanced_circuit_board"
+			},
+			"D": {
+				"item": "minecraft:diamond_block"
+			},
+			"N": {
+				"item": "minecraft:netherite_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:modular_tool_sword"
+		}
+	}
+}

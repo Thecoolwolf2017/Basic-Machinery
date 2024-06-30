@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.advanced_solar_panel_entity",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "panel",
+					"pivot": [0, 16.5, 0],
+					"cubes": [
+						{"origin": [-10.5, 15, -8], "size": [21, 3, 16], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

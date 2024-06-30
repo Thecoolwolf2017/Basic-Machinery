@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:module_solar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:default_module"
+			},
+			"B": {
+				"item": "vatonage:solar_panel"
+			}
+		},
+		"result": {
+			"item": "vatonage:module_solar"
+		}
+	}
+}

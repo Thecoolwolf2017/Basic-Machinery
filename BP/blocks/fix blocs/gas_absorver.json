@@ -1,0 +1,133 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:gas_absorber",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:above": [
+					"gasOutput",
+					"none"
+				],
+				"vatonage:north": [
+					"rfInput",
+					"none"
+				],
+				"vatonage:south": [
+					"rfInput",
+					"none"
+				],
+				"vatonage:west": [
+					"rfInput",
+					"none"
+				],
+				"vatonage:east": [
+					"rfInput",
+					"none"
+				]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "gas_absorber",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:geometry": "geometry.gas_absorber",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"tag:gas_source": {},
+			"tag:gas_output": {},
+			"tag:rf_receiver": {},
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			}
+		]
+	}
+}

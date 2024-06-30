@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:drill"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  H",
+			"BD ",
+			"NC "
+		],
+		"key": {
+			"H": {
+				"item": "vatonage:graphene_plate"
+			},
+			"B": {
+				"item": "vatonage:portable_battery"
+			},
+			"C": {
+				"item": "vatonage:circuit_board"
+			},
+			"D": {
+				"item": "minecraft:diamond_block"
+			},
+			"N": {
+				"item": "minecraft:netherite_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:drill"
+		}
+	}
+}

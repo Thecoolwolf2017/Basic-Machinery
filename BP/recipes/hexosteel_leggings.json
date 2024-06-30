@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:hexosteel_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CAC",
+			"CBC",
+			"DFD"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:portable_battery"
+			},
+			"B": {
+				"item": "minecraft:netherite_leggings"
+			},
+			"C": {
+				"item": "vatonage:hexosteel_ingot"
+			},
+			"D": {
+				"item": "vatonage:circuit_board"
+			},
+			"F": {
+				"item": "vatonage:module_adaptador"
+			}
+		},
+		"result": {
+			"item": "vatonage:hexosteel_leggings"
+		}
+	}
+}

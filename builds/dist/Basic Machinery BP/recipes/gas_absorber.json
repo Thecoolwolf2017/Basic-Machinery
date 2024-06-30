@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:gas_absorber"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BCB",
+			"BAB",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:hopper"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "vatonage:tube_item"
+			}
+		},
+		"result": {
+			"item": "vatonage:gas_absorber"
+		}
+	}
+}

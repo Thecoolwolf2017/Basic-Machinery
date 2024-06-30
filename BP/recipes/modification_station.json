@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:modification_station"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BCB",
+			"ADA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_block"
+			},
+			"B": {
+				"item": "minecraft:redstone_torch"
+			},
+			"C": {
+				"item": "minecraft:smithing_table"
+			},
+			"D": {
+				"item": "vatonage:advanced_circuit_board"
+			}
+		},
+		"result": {
+			"item": "vatonage:modification_station"
+		}
+	}
+}

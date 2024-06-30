@@ -1,0 +1,106 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.modular_axe",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "rightItem",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Machado",
+					"parent": "rightItem",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone20",
+					"parent": "Machado",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 23.9408, -10.81948], "size": [3, 6, 11], "pivot": [0, 24.9408, -4.81948], "rotation": [67.5, 0, 0], "uv": [0, 37]}
+					]
+				},
+				{
+					"name": "bone17",
+					"parent": "Machado",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 19, 1.5], "size": [5, 8, 7], "pivot": [0, 23.5, 4.5], "rotation": [-45, 0, 0], "uv": [43, 23]}
+					]
+				},
+				{
+					"name": "bone16",
+					"parent": "Machado",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 19, -7.5], "size": [4, 7, 11], "uv": [23, 30]}
+					]
+				},
+				{
+					"name": "bone19",
+					"parent": "Machado",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 16.39752, -11.11558], "size": [2, 6, 7], "pivot": [0, 19.39752, -7.11558], "rotation": [102.5, 0, 0], "uv": [36, 56]}
+					]
+				},
+				{
+					"name": "Cabo",
+					"parent": "rightItem",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "Cabo",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 7, -1.5], "size": [3, 12, 3], "uv": [16, 61]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "Cabo",
+					"pivot": [-2, 18, -2.5],
+					"cubes": [
+						{"origin": [-1, 17, -3.5], "size": [2, 2, 2], "uv": [20, 0]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "Cabo",
+					"pivot": [2, 18, 2.5],
+					"cubes": [
+						{"origin": [-1, 17, 1.5], "size": [2, 2, 2], "uv": [20, 4]}
+					]
+				},
+				{
+					"name": "bone12",
+					"parent": "Cabo",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 20, -1.5], "size": [3, 4, 3], "uv": [51, 66]}
+					]
+				},
+				{
+					"name": "Norm",
+					"parent": "rightItem",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 0, -2.5], "size": [5, 7, 5], "uv": [23, 49]},
+						{"origin": [-2, 1, -2], "size": [4, 5, 4], "uv": [60, 0]},
+						{"origin": [0, -2, 2.5], "size": [0, 9, 4], "uv": [0, 17]},
+						{"origin": [0, -2, -5.5], "size": [0, 9, 4], "uv": [0, 32]}
+					]
+				}
+			]
+		}
+	]
+}

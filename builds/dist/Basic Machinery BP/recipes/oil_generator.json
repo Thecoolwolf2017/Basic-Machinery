@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:oil_generator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DAD",
+			"BCB",
+			"EBE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:copper_block"
+			},
+			"B": {
+				"item": "vatonage:pipe_item"
+			},
+			"C": {
+				"item": "minecraft:furnace"
+			},
+			"D": {
+				"item": "vatonage:plastic_bunch"
+			},
+			"E": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:oil_generator"
+		}
+	}
+}

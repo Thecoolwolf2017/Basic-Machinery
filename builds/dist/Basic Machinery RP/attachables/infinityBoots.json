@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "vatonage:hexosteel_boots",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"a": "textures/models/armor/graphene_armor_1",
+				"b": "textures/models/armor/graphene_armor_2",
+				"c": "textures/models/armor/graphene_armor_3",
+				"d": "textures/models/armor/graphene_armor_4",
+				"e": "textures/models/armor/graphene_armor_5",
+				"f": "textures/models/armor/graphene_armor_5",
+				"g": "textures/models/armor/graphene_armor_6",
+				"h": "textures/models/armor/graphene_armor_7",
+				"i": "textures/models/armor/graphene_armor_8",
+				"j": "textures/models/armor/graphene_armor_10",
+				"k": "textures/models/armor/graphene_armor_11",
+				"l": "textures/models/armor/graphene_armor_12",
+				"m": "textures/models/armor/graphene_armor_13",
+				"n": "textures/models/armor/graphene_armor_14",
+				"o": "textures/models/armor/graphene_armor_15",
+				"p": "textures/models/armor/graphene_armor_16",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.graphene_armor.boots"
+			},
+			"scripts": {
+				"parent_setup": "variable.boot_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.graphenearmor"
+			]
+		}
+	}
+}

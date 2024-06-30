@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:quantum_miner"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"DCD",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "minecraft:diamond_pickaxe"
+			},
+			"D": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"result": {
+			"item": "vatonage:quantum_miner"
+		}
+	}
+}

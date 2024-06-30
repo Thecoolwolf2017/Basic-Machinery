@@ -1,0 +1,168 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:gastank",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:gas_stage": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11
+				],
+				"vatonage:gas_type": [
+					"none",
+					"hydrogen",
+					"oxygen",
+					"nitrogen",
+					"steam",
+					"carbon"
+				],
+				"vatonage:above": [
+					"gasInput",
+					"none"
+				],
+				"vatonage:below": [
+					"gasOutput",
+					"none"
+				]
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "gastank_none",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"tag:steam_receiver": {},
+			"tag:carbon_receiver": {},
+			"tag:hydrogen_receiver": {},
+			"tag:nitrogen_receiver": {},
+			"tag:oxygen_receiver": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.gastank",
+				"bone_visibility": {
+					"fill1": "q.block_state('vatonage:gas_stage') == 1",
+					"fill2": "q.block_state('vatonage:gas_stage') == 2",
+					"fill3": "q.block_state('vatonage:gas_stage') == 3",
+					"fill4": "q.block_state('vatonage:gas_stage') == 4",
+					"fill5": "q.block_state('vatonage:gas_stage') == 5",
+					"fill6": "q.block_state('vatonage:gas_stage') == 6",
+					"fill7": "q.block_state('vatonage:gas_stage') == 7",
+					"fill8": "q.block_state('vatonage:gas_stage') == 8",
+					"fill9": "q.block_state('vatonage:gas_stage') == 9",
+					"fill10": "q.block_state('vatonage:gas_stage') == 10"
+				}
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'none'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "gastank_none",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'hydrogen'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "gastank_hydrogen",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'oxygen'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "gastank_oxygen",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'nitrogen'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "gastank_nitrogen",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'steam'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "gastank_steam",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'carbon'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "gastank_carbon",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

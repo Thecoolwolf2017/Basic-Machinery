@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:default_module"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"B B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:redstone"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "vatonage:default_module"
+		}
+	}
+}

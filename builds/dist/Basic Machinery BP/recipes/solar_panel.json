@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:solar_panel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CCC",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:redstone_block"
+			},
+			"B": {
+				"item": "minecraft:copper_ingot"
+			},
+			"C": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:solar_panel"
+		}
+	}
+}

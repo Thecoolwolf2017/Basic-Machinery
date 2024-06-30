@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.infchestplate": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "v.is_enchanted ? material.enchanted : Material.default"
+                },
+		        {
+                    "asa": "Material.defaultx"
+                },
+		        {
+                    "asa2": "Material.defaultx"
+                }
+            ],
+            "textures": [
+                "t.time = q.life_time * 10; return array.txt[t.time];", "texture.enchanted"
+            ],
+            "arrays": {
+                "textures": {
+                    "array.txt":[
+                      "texture.a",
+                      "texture.b",
+                      "texture.c",
+                      "texture.d",
+                      "texture.e",
+                      "texture.f",
+                      "texture.g",
+                      "texture.h",
+                      "texture.g",
+                      "texture.f",
+                      "texture.e",
+                      "texture.d",
+                      "texture.c",
+                      "texture.b",
+                      "texture.a"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:circuit_board"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BAB",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:plastic_bunch"
+			},
+			"B": {
+				"item": "vatonage:silicon"
+			}
+		},
+		"result": {
+			"item": "vatonage:circuit_board"
+		}
+	}
+}

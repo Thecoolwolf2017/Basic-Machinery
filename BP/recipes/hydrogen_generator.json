@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:hydrogen_generator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"CDC",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:plastic_bunch"
+			},
+			"B": {
+				"item": "minecraft:copper_block"
+			},
+			"C": {
+				"item": "vatonage:cable_item"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": {
+			"item": "vatonage:hydrogen_generator"
+		}
+	}
+}

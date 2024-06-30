@@ -1,0 +1,195 @@
+	{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:tank",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:liquid_stage": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11
+				],
+				"vatonage:liquid_type": [
+					"none",
+					"ammonia",
+					"exp",
+					"lava",
+					"water",
+					"milk",
+					"oil",
+					"fluor"
+				],
+				"vatonage:above": [
+					"liquidInput",
+					"none"
+				],
+				"vatonage:below": [
+					"liquidOutput",
+					"none"
+				]
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "tank_none",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.tank",
+				"bone_visibility": {
+					"fill1": "q.block_state('vatonage:liquid_stage') == 1",
+					"fill2": "q.block_state('vatonage:liquid_stage') == 2",
+					"fill3": "q.block_state('vatonage:liquid_stage') == 3",
+					"fill4": "q.block_state('vatonage:liquid_stage') == 4",
+					"fill5": "q.block_state('vatonage:liquid_stage') == 5",
+					"fill6": "q.block_state('vatonage:liquid_stage') == 6",
+					"fill7": "q.block_state('vatonage:liquid_stage') == 7",
+					"fill8": "q.block_state('vatonage:liquid_stage') == 8",
+					"fill9": "q.block_state('vatonage:liquid_stage') == 9",
+					"fill10": "q.block_state('vatonage:liquid_stage') == 10"
+				}
+			},
+			"minecraft:destructible_by_mining": true,
+			"tag:liquid_input": {},
+			"tag:water_receiver": {},
+			"tag:lava_receiver": {},
+			"tag:milk_receiver": {},
+			"tag:exp_receiver": {},
+			"tag:oil_receiver": {},
+			"tag:fluor_receiver": {},
+			"tag:ammonia_receiver": {},
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'none'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_none",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'milk'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_milk",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'exp'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_exp",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'ammonia'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_ammonia",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'water'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_water",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'lava'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_lava",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'oil'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_oil",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:liquid_type') == 'fluor'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tank_fluor",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

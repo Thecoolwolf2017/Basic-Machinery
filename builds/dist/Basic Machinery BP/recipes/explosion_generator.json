@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:explosion_generator"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BDB",
+			"ACA",
+			"BDB"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:circuit_board"
+			},
+			"B": {
+				"item": "minecraft:obsidian"
+			},
+			"C": {
+				"item": "minecraft:iron_block"
+			},
+			"D": {
+				"item": "minecraft:gold_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:explosion_generator"
+		}
+	}
+}

@@ -1,0 +1,236 @@
+{
+    "namespace": "module_station",
+    
+    "title_label": {
+    "type": "label",
+    "offset": [ 0, 4 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "text": "$container_title",
+    "color": "$title_text_color",
+    "layer": 4
+  },
+  
+  "armor_overlay": {
+    "type": "image",
+    "layer": 2,
+    "$armor_overlay_size|default": [ 16, 16 ],
+    "size": "$armor_overlay_size",
+    "alpha": 0.8,
+    "bindings": [
+      {
+       "binding_name": "#item_id_aux",
+       "binding_type": "collection",
+       "binding_collection_name": "container_items"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name":"(#item_id_aux = -1)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  
+  "armor_overlay_helmet@armor_overlay": {
+    "texture": "textures/ui/empty_armor_slot_helmet"
+  },
+
+  "armor_overlay_chest@armor_overlay": {
+    "texture": "textures/ui/empty_armor_slot_chestplate"
+  },
+
+  "armor_overlay_legs@armor_overlay": {
+    "texture": "textures/ui/empty_armor_slot_leggings"
+  },
+
+  "armor_image_feet@armor_overlay": {
+    "texture": "textures/ui/empty_armor_slot_boots"
+  },
+  
+  "overlay_image": {
+    "type": "image",
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "layer": 1,
+    "offset": [ 1, 1 ],
+    "size": [ 16, 16 ]
+  },
+  
+  "tools_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 5,
+    "frame_step": 0, // Unused
+    "fps": 1.0,
+    "easing": "linear" // Unused
+  },
+  
+  "tools_slot_overlay@module_station.overlay_image": {
+    "texture": "textures/ui/tools_slot_overlay",
+    "uv": "@module_station.tools_animation",
+    "uv_size": [ 16, 16 ]
+  },
+  
+  "tools_slot_overlay_image": {
+    "type": "panel",
+    "controls": [
+      {
+        "tools_slots@module_station.tools_slot_overlay": {
+          "bindings": [
+            {
+                  "binding_name": "#item_id_aux",
+                  "binding_type": "collection",
+                 "binding_collection_name": "container_items"
+              },
+              {
+                  "binding_type": "view",
+                  "source_property_name": "(#item_id_aux = -1)",
+                  "target_property_name": "#visible"
+              }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "input_grid_panel":{
+	"type": "panel",
+  "grid_position": [1, 1],
+  "ignored": true
+  },
+  
+  "armor_and_tools_grid": {
+    "type": "grid",
+    "size": [ 18, 54 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 1, 5],
+    "collection_name": "container_items",
+    "$slot_craft|default": "textures/ui/heart",
+    "$slot_craft2|default": "textures/ui/heart",
+    "controls": [
+      {
+        "slot": {
+        "type": "panel",
+        "grid_position": [ 0, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "$background_images": "vatonage_common.input_right",
+        "$cell_overlay_ref": "module_station.armor_overlay_helmet",
+        "offset": [ 0, 0 ],
+        "layer": 0
+       }}]}},
+      {
+        "slot2": {
+        "type": "panel",
+        "grid_position": [ 1, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "$background_images": "vatonage_common.input_right",
+        "$cell_overlay_ref": "module_station.armor_overlay_chest",
+        "offset": [ -18, 19 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot3": {
+        "type": "panel",
+        "grid_position": [ 2, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "$background_images": "vatonage_common.input_right",
+        "$cell_overlay_ref": "module_station.armor_overlay_legs",
+        "offset": [ -36, 38],
+        "layer": 0
+       }}]}},
+       {
+        "slot4": {
+        "type": "panel",
+        "grid_position": [ 3, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "$background_images": "vatonage_common.input_right",
+        "ignored": false,
+        "$cell_overlay_ref": "module_station.armor_image_feet",
+        "offset": [ -54, 57 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot5": {
+        "type": "panel",
+        "grid_position": [ 4, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "$cell_overlay_ref": "module_station.tools_slot_overlay_image",
+        "ignored": false,
+        "offset": [ -72, 76 ],
+        "layer": 0
+       }}]}}
+    ]
+  },
+  
+  "remaining_slots_grid": {
+    "type": "grid",
+    "size": [ 54, 54 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "grid_dimensions": [ 2, 1],
+    "collection_name": "container_items",
+    "$slot_craft|default": "textures/ui/heart",
+    "$slot_craft2|default": "textures/ui/heart",
+    "controls": [
+      {
+        "slot": {
+        "type": "panel",
+        "grid_position": [ 5, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "$background_images": "vatonage_common.output_left",
+        "$cell_image_size": [ 22, 22 ],
+        "size": [ 22, 22 ],
+        "offset": [ 25, 0 ],
+        "layer": 0
+       }}]}},
+      {
+        "slot2": {
+        "type": "panel",
+        "grid_position": [ 6, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "$cell_image_size": [ 24, 24 ],
+        "size": [ 24, 24 ],
+        "offset": [ 56, 0 ],
+        "layer": 0
+       }}]}}
+    ]
+  },
+  
+  
+  "module_station_panel_top_half": {
+            "type": "panel",
+            "size": [ 176, 198 ],
+            "offset": [ 0, 0 ],
+            "anchor_to": "top_left",
+            "anchor_from": "top_left",
+            "$slot_craft_panel|default": "textures/ui/paper",
+            "$slot_craft_panel2|default": "textures/ui/dye_blue",
+            "controls": [
+      { "label@module_station.title_label": {}},
+      { "armor_and_tools_grid@module_station.armor_and_tools_grid": {
+        "offset": [ 13, 15.7 ]}},
+      { "remaining_slots@module_station.remaining_slots_grid": {
+        "offset": [ -146.4, 32 ]}}
+       ]
+   }
+}

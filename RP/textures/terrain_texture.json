@@ -1,0 +1,347 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"uranium_ore": {
+			"textures": "textures/blocks/uranium_ore"
+		},
+		"chargepad": {
+			"textures": "textures/blocks/chargepad"
+		},
+		"modification_station": {
+			"textures": "textures/blocks/modification_station"
+		},
+		"reactor_port": {
+			"textures": "textures/blocks/reactor_port"
+		},
+		"reactor_port_water": {
+			"textures": "textures/blocks/reactor_port_water"
+		},
+		"reactor_port_nuclear_fuel": {
+			"textures": "textures/blocks/reactor_port_nuclear_fuel"
+		},
+		"reactor_port_rf": {
+			"textures": "textures/blocks/reactor_port_rf"
+		},
+		"reactor_controller_on": {
+			"textures": "textures/blocks/reactor_controller_on"
+		},
+		"reactor_controller": {
+			"textures": "textures/blocks/reactor_controller"
+		},
+		"reactor_vaporation_module": {
+			"textures": "textures/blocks/reactor_vaporation_module"
+		},
+		"reactor_casing": {
+			"textures": "textures/blocks/reactor_casing"
+		},
+		"water_filter": {
+			"textures": "textures/blocks/water_filter"
+		},
+		"radiation_tank": {
+			"textures": "textures/blocks/radiation_tank"
+		},
+		"chemistry_mixer": {
+			"textures": "textures/blocks/chemistry_mixer"
+		},
+		"neutron_activator_on": {
+			"textures": "textures/blocks/neutron_activator_on"
+		},
+		"neutron_activator": {
+			"textures": "textures/blocks/neutron_activator"
+		},
+		"graphene_factory": {
+			"textures": "textures/blocks/graphene_factory"
+		},
+		"impact_reactor": {
+			"textures": "textures/blocks/impact_reactor"
+		},
+		"block_placer": {
+			"textures": "textures/blocks/block_placer"
+		},
+		"item_filter": {
+			"textures": "textures/blocks/item_filter"
+		},
+		"power_receiver": {
+			"textures": "textures/blocks/power_receiver"
+		},
+		"power_transmitter": {
+			"textures": "textures/blocks/power_transmitter"
+		},
+		"geothermal_generator": {
+			"textures": "textures/blocks/geothermal_generator"
+		},
+		"explosion_generator": {
+			"textures": "textures/blocks/explosion_generator"
+		},
+		"freezer": {
+			"textures": "textures/blocks/freezer"
+		},
+		"ammonia_mixer": {
+			"textures": "textures/blocks/ammonia_mixer"
+		},
+		"nitrogen_extractor": {
+			"textures": "textures/blocks/nitrogen_extractor"
+		},
+		"milk_generator": {
+			"textures": "textures/blocks/milk_generator"
+		},
+		"heavy_press_on": {
+			"textures": "textures/blocks/heavy_press_on"
+		},
+		"heavy_press": {
+			"textures": "textures/blocks/heavy_press"
+		},
+		"hydrogen_generator": {
+			"textures": "textures/blocks/hydrogen_generator"
+		},
+		"hydrogen_generator_on": {
+			"textures": "textures/blocks/hydrogen_generator_on"
+		},
+		"nether_quantum_miner": {
+			"textures": "textures/blocks/nether_quantum_miner"
+		},
+		"gas_condenser": {
+			"textures": "textures/blocks/gas_condenser"
+		},
+		"exp_transmitter": {
+			"textures": "textures/blocks/exp_transmitter"
+		},
+		"exp_generator": {
+			"textures": "textures/blocks/exp_generator"
+		},
+		"silicon_factory": {
+			"textures": "textures/blocks/silicon_factory"
+		},
+		"gas_separator": {
+			"textures": "textures/blocks/gas_separator"
+		},
+		"gas_absorber": {
+			"textures": "textures/blocks/gas_absorber"
+		},
+		"gastank_none": {
+			"textures": "textures/blocks/gastank"
+		},
+		"gastank_carbon": {
+			"textures": "textures/blocks/gastank_carbon"
+		},
+		"gastank_steam": {
+			"textures": "textures/blocks/gastank_steam"
+		},
+		"gastank_nitrogen": {
+			"textures": "textures/blocks/gastank_nitrogen"
+		},
+		"gastank_hydrogen": {
+			"textures": "textures/blocks/gastank_hydrogen"
+		},
+		"gastank_oxygen": {
+			"textures": "textures/blocks/gastank_oxygen"
+		},
+		"tube": {
+			"textures": "textures/blocks/tube"
+		},
+		"tube_carbon": {
+			"textures": "textures/blocks/tube_carbon"
+		},
+		"tube_steam": {
+			"textures": "textures/blocks/tube_steam"
+		},
+		"tube_nitrogen": {
+			"textures": "textures/blocks/tube_nitrogen"
+		},
+		"tube_hydrogen": {
+			"textures": "textures/blocks/tube_hydrogen"
+		},
+		"tube_oxygen": {
+			"textures": "textures/blocks/tube_oxygen"
+		},
+		"tube_uranium": {
+			"textures": "textures/blocks/tube_uranium"
+		},
+		"tube_nuclear_fuel": {
+			"textures": "textures/blocks/tube_nuclear_fuel"
+		},
+		"monster_masher": {
+			"textures": "textures/blocks/monster_masher"
+		},
+		"plastic_refinery": {
+			"textures": "textures/blocks/plastic_refinery"
+		},
+		"powered_fisher": {
+			"textures": "textures/blocks/powered_fisher"
+		},
+		"water_generator": {
+			"textures": "textures/blocks/steam_generator"
+		},
+		"water_generator_on": {
+			"textures": "textures/blocks/steam_generator_on"
+		},
+		"lava_generator": {
+			"textures": "textures/blocks/lava_generator"
+		},
+		"lava_generator_on": {
+			"textures": "textures/blocks/lava_generator_on"
+		},
+		"oil_generator": {
+			"textures": "textures/blocks/oil_generator"
+		},
+		"oil_generator_on": {
+			"textures": "textures/blocks/oil_generator_on"
+		},
+		"oil_rig": {
+			"textures": "textures/blocks/oil_rig"
+		},
+		"tank_none": {
+			"textures": "textures/blocks/tank_none"
+		},
+		"tank_fluor": {
+			"textures": "textures/blocks/tank_fluor"
+		},
+		"tank_water": {
+			"textures": "textures/blocks/tank_water"
+		},
+		"tank_lava": {
+			"textures": "textures/blocks/tank_lava"
+		},
+		"tank_oil": {
+			"textures": "textures/blocks/tank_oil"
+		},
+		"tank_ammonia": {
+			"textures": "textures/blocks/tank_ammonia"
+		},
+		"tank_exp": {
+			"textures": "textures/blocks/tank_exp"
+		},
+		"tank_milk": {
+			"textures": "textures/blocks/tank_milk"
+		},
+		"liquid_pump": {
+			"textures": "textures/blocks/liquid_pump"
+		},
+		"liquid_pipe_none": {
+			"textures": "textures/blocks/liquid_pipe_none"
+		},
+		"liquid_pipe_water": {
+			"textures": "textures/blocks/liquid_pipe_water"
+		},
+		"liquid_pipe_lava": {
+			"textures": "textures/blocks/liquid_pipe_lava"
+		},
+		"liquid_pipe_fluor": {
+			"textures": "textures/blocks/liquid_pipe_fluor"
+		},
+		"liquid_pipe_oil": {
+			"textures": "textures/blocks/liquid_pipe_oil"
+		},
+		"liquid_pipe_milk": {
+			"textures": "textures/blocks/liquid_pipe_milk"
+		},
+		"liquid_pipe_ammonia": {
+			"textures": "textures/blocks/liquid_pipe_ammonia"
+		},
+		"liquid_pipe_exp": {
+			"textures": "textures/blocks/liquid_pipe_exp"
+		},
+		"quantum_miner": {
+			"textures": "textures/blocks/quantum_miner"
+		},
+		"powered_furnace": {
+			"textures": "textures/blocks/powered_furnace"
+		},
+		"powered_furnace_on": {
+			"textures": "textures/blocks/powered_furnace_on"
+		},
+		"item_magnet": {
+			"textures": "textures/blocks/item_magnet"
+		},
+		"crusher": {
+			"textures": "textures/blocks/crusher"
+		},
+		"crusher_on": {
+			"textures": "textures/blocks/crusher_on"
+		},
+		"block_breaker": {
+			"textures": "textures/blocks/block_breaker"
+		},
+		"coal_generator": {
+			"textures": "textures/blocks/coal_generator"
+		},
+		"conveyor_diagonal_up": {
+			"textures": "textures/blocks/conveyor_diagonal_up"
+		},
+		"conveyor_diagonal_down": {
+			"textures": "textures/blocks/conveyor_diagonal_down"
+		},
+		"conveyor": {
+			"textures": "textures/blocks/conveyor"
+		},
+		"trash_can": {
+			"textures": "textures/blocks/trash_can"
+		},
+		"battery_0": {
+			"textures": "textures/blocks/battery_0"
+		},
+		"battery_1": {
+			"textures": "textures/blocks/battery_1"
+		},
+		"battery_2": {
+			"textures": "textures/blocks/battery_2"
+		},
+		"battery_3": {
+			"textures": "textures/blocks/battery_3"
+		},
+		"battery_4": {
+			"textures": "textures/blocks/battery_4"
+		},
+		"battery_5": {
+			"textures": "textures/blocks/battery_5"
+		},
+		"battery_6": {
+			"textures": "textures/blocks/battery_6"
+		},
+		"battery_7": {
+			"textures": "textures/blocks/battery_7"
+		},
+		"battery_8": {
+			"textures": "textures/blocks/battery_8"
+		},
+		"battery_9": {
+			"textures": "textures/blocks/battery_9"
+		},
+		"battery_10": {
+			"textures": "textures/blocks/battery_10"
+		},
+		"battery_11": {
+			"textures": "textures/blocks/battery_11"
+		},
+		"battery_12": {
+			"textures": "textures/blocks/battery_12"
+		},
+		"battery_13": {
+			"textures": "textures/blocks/battery_13"
+		},
+		"battery_14": {
+			"textures": "textures/blocks/battery_14"
+		},
+		"battery_15": {
+			"textures": "textures/blocks/battery_15"
+		},
+		"advanced_solar_panel": {
+			"textures": "textures/blocks/advanced_solar_panel"
+		},
+		"cobblestone_generator": {
+			"textures": "textures/blocks/cobblestone_generator"
+		},
+		"solar_panel": {
+			"textures": "textures/blocks/solar_panel"
+		},
+		"power_cable_0": {
+			"textures": "textures/blocks/power_cable_0"
+		},
+		"power_cable_1": {
+			"textures": "textures/blocks/power_cable_1"
+		}
+	}
+}

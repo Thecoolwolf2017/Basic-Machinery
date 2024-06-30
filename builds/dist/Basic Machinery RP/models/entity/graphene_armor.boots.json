@@ -1,0 +1,275 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.graphene_armor.boots",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [
+					0,
+					1.5,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "root",
+					"pivot": [
+						1.9,
+						12,
+						0
+					]
+				},
+				{
+					"name": "boot_left",
+					"parent": "leftLeg",
+					"pivot": [
+						2.95833,
+						4.125,
+						-0.41667
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								0.25,
+								-2
+							],
+							"size": [
+								4,
+								3,
+								4
+							],
+							"inflate": 0.2,
+							"uv": [
+								78,
+								45
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								-0.25,
+								0,
+								-2.5
+							],
+							"size": [
+								5,
+								2,
+								5
+							],
+							"inflate": 0.2,
+							"uv": [
+								11,
+								46
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								1.25,
+								2,
+								-2.5
+							],
+							"size": [
+								2,
+								7,
+								0
+							],
+							"uv": [
+								4,
+								45
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								4.75,
+								2,
+								-1
+							],
+							"size": [
+								0,
+								7,
+								2
+							],
+							"uv": [
+								0,
+								43
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								1.75,
+								3.5,
+								-2
+							],
+							"size": [
+								3,
+								4,
+								4
+							],
+							"inflate": 0.3,
+							"uv": [
+								31,
+								44
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								1.75,
+								3.5,
+								-2
+							],
+							"size": [
+								3,
+								4,
+								4
+							],
+							"inflate": 0.22,
+							"uv": [
+								64,
+								45
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "root",
+					"pivot": [
+						-1.9,
+						12,
+						0
+					]
+				},
+				{
+					"name": "boot_right",
+					"parent": "rightLeg",
+					"pivot": [
+						-2.95833,
+						4.125,
+						-0.41667
+					],
+					"cubes": [
+						{
+							"origin": [
+								-4,
+								0.25,
+								-2
+							],
+							"size": [
+								4,
+								3,
+								4
+							],
+							"inflate": 0.2,
+							"uv": [
+								78,
+								45
+							]
+						},
+						{
+							"origin": [
+								-4.75,
+								0,
+								-2.5
+							],
+							"size": [
+								5,
+								2,
+								5
+							],
+							"inflate": 0.2,
+							"uv": [
+								11,
+								46
+							]
+						},
+						{
+							"origin": [
+								-3.25,
+								2,
+								-2.5
+							],
+							"size": [
+								2,
+								7,
+								0
+							],
+							"uv": [
+								4,
+								45
+							]
+						},
+						{
+							"origin": [
+								-4.75,
+								2,
+								-1
+							],
+							"size": [
+								0,
+								7,
+								2
+							],
+							"uv": [
+								0,
+								43
+							]
+						},
+						{
+							"origin": [
+								-4.75,
+								3.5,
+								-2
+							],
+							"size": [
+								3,
+								4,
+								4
+							],
+							"inflate": 0.3,
+							"uv": [
+								31,
+								44
+							]
+						},
+						{
+							"origin": [
+								-4.75,
+								3.5,
+								-2
+							],
+							"size": [
+								3,
+								4,
+								4
+							],
+							"inflate": 0.22,
+							"uv": [
+								64,
+								45
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

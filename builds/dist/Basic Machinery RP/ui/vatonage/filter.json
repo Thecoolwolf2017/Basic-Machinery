@@ -1,0 +1,487 @@
+{
+    "namespace": "filter",
+    "title_label": {
+    "type": "label",
+    "offset": [ -59, 4 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "text": "$container_title",
+    "color": "$title_text_color",
+    "layer": 4
+  },
+  "input_grid_panel":{
+	"type": "panel",
+  "grid_position": [1, 1],
+  "ignored": true
+  },
+  
+  "red_grid": {
+    "type": "grid",
+    "size": [ 54, 54 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "grid_dimensions": [ 3, 3],
+    "collection_name": "container_items",
+    "$slot_craft|default": "textures/ui/heart",
+    "$slot_craft2|default": "textures/ui/heart",
+    "controls": [
+      {
+        "slot": {
+        "type": "panel",
+        "grid_position": [ 0, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+      {
+        "slot2": {
+        "type": "panel",
+        "grid_position": [ 1, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot3": {
+        "type": "panel",
+        "grid_position": [ 2, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot4": {
+        "type": "panel",
+        "grid_position": [ 3, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot5": {
+        "type": "panel",
+        "grid_position": [ 4, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot6": {
+        "type": "panel",
+        "grid_position": [ 5, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot7": {
+        "type": "panel",
+        "grid_position": [ 6, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot8": {
+        "type": "panel",
+        "grid_position": [ 7, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot9": {
+        "type": "panel",
+        "grid_position": [ 8, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}}
+    ]
+  },
+  
+  "blue_grid": {
+    "type": "grid",
+    "size": [ 54, 54 ],
+    "anchor_from": "middle",
+    "anchor_to": "middle",
+    "grid_dimensions": [ 3, 3],
+    "collection_name": "container_items",
+    "$slot_craft|default": "textures/ui/heart",
+    "$slot_craft2|default": "textures/ui/heart",
+    "controls": [
+      {
+        "slot": {
+        "type": "panel",
+        "grid_position": [ 9, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+      {
+        "slot2": {
+        "type": "panel",
+        "grid_position": [ 10, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot3": {
+        "type": "panel",
+        "grid_position": [ 11, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot4": {
+        "type": "panel",
+        "grid_position": [ 12, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot5": {
+        "type": "panel",
+        "grid_position": [ 13, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot6": {
+        "type": "panel",
+        "grid_position": [ 14, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot7": {
+        "type": "panel",
+        "grid_position": [ 15, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot8": {
+        "type": "panel",
+        "grid_position": [ 16, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot9": {
+        "type": "panel",
+        "grid_position": [ 17, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}}
+    ]
+  },
+  
+  "green_grid": {
+    "type": "grid",
+    "size": [ 54, 54 ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "grid_dimensions": [ 3, 3],
+    "collection_name": "container_items",
+    "$slot_craft|default": "textures/ui/heart",
+    "$slot_craft2|default": "textures/ui/heart",
+    "controls": [
+      {
+        "slot": {
+        "type": "panel",
+        "grid_position": [ 18, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+      {
+        "slot2": {
+        "type": "panel",
+        "grid_position": [ 19, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot3": {
+        "type": "panel",
+        "grid_position": [ 20, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot4": {
+        "type": "panel",
+        "grid_position": [ 21, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot5": {
+        "type": "panel",
+        "grid_position": [ 22, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot6": {
+        "type": "panel",
+        "grid_position": [ 23, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot7": {
+        "type": "panel",
+        "grid_position": [ 24, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot8": {
+        "type": "panel",
+        "grid_position": [ 25, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot9": {
+        "type": "panel",
+        "grid_position": [ 26, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}}
+    ]
+  },
+  
+  "yellow_grid": {
+    "type": "grid",
+    "size": [ 54, 54 ],
+    "anchor_from": "middle_left",
+    "anchor_to": "middle_left",
+    "grid_dimensions": [ 3, 3],
+    "collection_name": "container_items",
+    "$slot_craft|default": "textures/ui/heart",
+    "$slot_craft2|default": "textures/ui/heart",
+    "controls": [
+      {
+        "slot": {
+        "type": "panel",
+        "grid_position": [ 27, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+      {
+        "slot2": {
+        "type": "panel",
+        "grid_position": [ 28, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot3": {
+        "type": "panel",
+        "grid_position": [ 29, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ 25, 16 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot4": {
+        "type": "panel",
+        "grid_position": [ 30, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot5": {
+        "type": "panel",
+        "grid_position": [ 31, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot6": {
+        "type": "panel",
+        "grid_position": [ 32, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -29, 34 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot7": {
+        "type": "panel",
+        "grid_position": [ 33, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot8": {
+        "type": "panel",
+        "grid_position": [ 34, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}},
+       {
+        "slot9": {
+        "type": "panel",
+        "grid_position": [ 35, 0 ],
+        "controls": [
+        {
+        "left_top@vatonage_common.chest_grid_item": {
+        "ignored": false,
+        "offset": [ -83, 52 ],
+        "layer": 0
+       }}]}}
+    ]
+  },
+  
+  
+  "filter_panel_top_half": {
+            "type": "panel",
+            "size": [ 202, 256 ],
+            "offset": [ 0, 0 ],
+            "anchor_to": "top_left",
+            "anchor_from": "top_left",
+            "$slot_craft_panel|default": "textures/ui/paper",
+            "$slot_craft_panel2|default": "textures/ui/dye_blue",
+            "controls": [
+      { "label@filter.title_label": {}},
+      { "red_grid@filter.red_grid": {
+        "offset": [ -25, -4 ]}},
+      { "blue_grid@filter.blue_grid": {
+        "offset": [ -122, -57 ]}},
+      { "green_grid@filter.green_grid": {
+        "offset": [ -275, -108.7 ]}},
+      { "yellow_grid@filter.yellow_grid": {
+        "offset": [ -576, -57 ]}}
+       ]
+   }
+}

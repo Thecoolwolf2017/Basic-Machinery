@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vatonage:impact_reactor"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			"ACA",
+			"CDC"
+		],
+		"key": {
+			"A": {
+				"item": "vatonage:circuit_board"
+			},
+			"B": {
+				"item": "minecraft:redstone_block"
+			},
+			"C": {
+				"item": "minecraft:iron_block"
+			},
+			"D": {
+				"item": "minecraft:diamond_block"
+			}
+		},
+		"result": {
+			"item": "vatonage:impact_reactor"
+		}
+	}
+}

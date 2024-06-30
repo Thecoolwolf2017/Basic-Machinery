@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.modular_tool_sword.first": {
+      "loop": true,
+      "bones": {
+        "rightItem": {
+          "position": [ 3, 5.0, 8.0 ],
+          "rotation": [ 130.0, 60.0, -15.0 ],
+          "scale": [ 0.6, 0.6, 0.6 ]
+        }
+      }
+    },
+    "animation.modular_tool_sword.third": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [ 0.0, 0.0, 5.0 ],
+          "rotation": [ 90.0, 0.0, 0.0 ],
+          "scale": [ 0.6, 0.6, 0.6 ]
+        }
+      }
+    }
+  }
+}

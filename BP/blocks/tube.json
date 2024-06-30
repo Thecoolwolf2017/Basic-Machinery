@@ -1,0 +1,205 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vatonage:tube",
+			"menu_category": {
+				"category": "none",
+				"group": "itemGroup.name.basic",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"vatonage:above": [
+					"none",
+					"tube"
+				],
+				"vatonage:below": [
+					"none",
+					"tube"
+				],
+				"vatonage:north": [
+					"none",
+					"tube"
+				],
+				"vatonage:south": [
+					"none",
+					"tube"
+				],
+				"vatonage:east": [
+					"none",
+					"tube"
+				],
+				"vatonage:west": [
+					"none",
+					"tube"
+				],
+				"vatonage:gas_type": [
+					"none",
+					"hydrogen",
+					"oxygen",
+					"nitrogen",
+					"steam",
+					"carbon",
+					"uranium",
+					"nuclear_fuel"
+				]
+			}
+		},
+		"components": {
+			"tag:vatonageblock": {},
+			"minecraft:loot": "loot_tables/tube.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "tube",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"tag:gas_tube": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.cable",
+				"bone_visibility": {
+					"up": "q.block_state('vatonage:above') != 'none'",
+					"down": "q.block_state('vatonage:below') != 'none'",
+					"north": "q.block_state('vatonage:north') != 'none'",
+					"east": "q.block_state('vatonage:east') != 'none'",
+					"south": "q.block_state('vatonage:south') != 'none'",
+					"west": "q.block_state('vatonage:west') != 'none'",
+					"up_cable": "q.block_state('vatonage:above') == 'tube'",
+					"down_cable": "q.block_state('vatonage:below') == 'tube'",
+					"north_cable": "q.block_state('vatonage:north') == 'tube'",
+					"east_cable": "q.block_state('vatonage:east') == 'tube'",
+					"south_cable": "q.block_state('vatonage:south') == 'tube'",
+					"west_cable": "q.block_state('vatonage:west') == 'tube'",
+					"up_output": "q.block_state('vatonage:above') == 'output'",
+					"down_output": "q.block_state('vatonage:below') == 'output'",
+					"north_output": "q.block_state('vatonage:north') == 'output'",
+					"east_output": "q.block_state('vatonage:east') == 'output'",
+					"south_output": "q.block_state('vatonage:south') == 'output'",
+					"west_output": "q.block_state('vatonage:west') == 'output'",
+					"up_input": "q.block_state('vatonage:above') == 'input'",
+					"down_input": "q.block_state('vatonage:below') == 'input'",
+					"north_input": "q.block_state('vatonage:north') == 'input'",
+					"east_input": "q.block_state('vatonage:east') == 'input'",
+					"south_input": "q.block_state('vatonage:south') == 'input'",
+					"west_input": "q.block_state('vatonage:west') == 'input'"
+				}
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:light_dampening": 0
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'none'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'steam'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube_steam",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'carbon'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube_carbon",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'nitrogen'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube_nitrogen",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'oxygen'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube_oxygen",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'hydrogen'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube_hydrogen",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'nuclear_fuel'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube_nuclear_fuel",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('vatonage:gas_type') == 'uranium'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "tube_uranium",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

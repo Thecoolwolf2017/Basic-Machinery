@@ -1,0 +1,150 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nano_sword.first": {
+			"loop": true,
+			"bones": {
+				"rightarm": {
+					"position": [
+						0,
+						-10,
+						15
+					],
+					"rotation": [
+						45,
+						60,
+						0
+					],
+					"scale": [
+						1.5,
+						1.5,
+						1.5
+					]
+				}
+			}
+		},
+		"animation.drill.first": {
+			"loop": true,
+			"bones": {
+				"rightarm": {
+					"position": [
+						0,
+						0,
+						20
+					],
+					"rotation": [
+						0,
+						45,
+						-20
+					],
+					"scale": [
+						1.5,
+						1.5,
+						1.5
+					]
+				}
+			}
+		},
+		"animation.drill.idle": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [
+						0,
+						"query.life_time*360",
+						0
+					]
+				},
+				"bone2": {
+					"rotation": [
+						0,
+						"-query.life_time*360",
+						0
+					]
+				},
+				"bone3": {
+					"rotation": [
+						0,
+						"query.life_time*360",
+						0
+					]
+				},
+				"bone4": {
+					"rotation": [
+						0,
+						"-query.life_time*360",
+						0
+					]
+				},
+				"bone5": {
+					"rotation": [
+						0,
+						"-query.life_time*360",
+						0
+					]
+				},
+				"bone6": {
+					"rotation": [
+						0,
+						"-query.life_time*360",
+						0
+					]
+				},
+				"bone7": {
+					"position": [
+						0,
+						0,
+						"-0.2-math.sin(query.life_time*360*4)*0.2"
+					]
+				},
+				"bone11": {
+					"position": [
+						0,
+						0,
+						"0-math.abs(math.cos(query.life_time*360)*0.5)"
+					]
+				},
+				"bone9": {
+					"position": [
+						0,
+						0,
+						"0-math.abs(math.cos(query.life_time*360)*0.25)"
+					]
+				},
+				"bone8": {
+					"position": [
+						0,
+						0,
+						"0-math.abs(math.sin(query.life_time*360)*0.25)"
+					]
+				},
+				"bone10": {
+					"position": [
+						0,
+						0,
+						"0-math.abs(math.sin(query.life_time*360)*0.5)"
+					]
+				},
+				"bone12": {
+					"rotation": [
+						0,
+						"0-math.abs(math.cos(query.life_time*360*2)*2)",
+						0
+					],
+					"position": [
+						0,
+						0,
+						0
+					]
+				},
+				"bone13": {
+					"rotation": [
+						"0+math.sin(query.life_time*360*3)*1",
+						"0-math.sin(query.life_time*360*6)*1",
+						0
+					]
+				}
+			}
+		}
+	}
+}
